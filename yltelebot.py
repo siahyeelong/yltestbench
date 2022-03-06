@@ -2,8 +2,7 @@ from telegram.ext import Updater, Dispatcher
 from telegram.ext import CommandHandler, MessageHandler
 import os
 
-#TOKEN = os.environ.get("TELEGRAMID")
-TOKEN = "5259967950:AAEbvHnIzvBnq1JYvEvL0R-fZP4BkevW7ew"
+TOKEN = os.environ.get("TELEGRAMID")
 
 def start(update, context):
     yourname = update.message.chat.first_name
