@@ -18,7 +18,7 @@ def help(update, context):
 def new(update, context):
     ar0 = str(context.args[0])
     ar1 = str(" ".join(context.args[1:])
-    msg = str("argument 0 = {} \nargument 1 = {}".format(ar0, ar1))
+    msg = "argument 0 = {} \nargument 1 = {}".format(ar0, ar1)
     context.bot.send_message(update.message.chat.id, msg)
 
 def error(update, context):
