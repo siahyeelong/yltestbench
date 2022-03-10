@@ -1,1 +1,1 @@
-web: gunicorn yltelebot.py
+web: python3 yltelebot.py
